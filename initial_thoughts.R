@@ -35,7 +35,7 @@ medpar %>%
   summarise(MeanLOS = mean(LOS),
             MedianLOS = median(LOS))
 
-# Also try by group by, now statistics within provider 
+# Also try group by, now statistics within provider 
 medpar %>%
   group_by(provnum) %>%
   summarise(MeanLOS = mean(LOS),
