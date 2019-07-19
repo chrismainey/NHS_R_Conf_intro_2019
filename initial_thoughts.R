@@ -68,4 +68,4 @@ ggplot(medpar, aes(x=los))+
 # Add labels, also demonstrate adding a layer
 ggplot(medpar, aes(x=los))+
   geom_histogram(fill="dodgerblue2", alpha=0.75, col="black")+
-  labs(title = "Distribution of Lenght of Stay in 'medpar' dataset", y="Count of patients", x="Length of Stay")
+  labs(title = "Distribution of Length of Stay in 'medpar' dataset", y="Count of patients", x="Length of Stay")
